@@ -45,10 +45,43 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about', { title: 'About' });
 });
-
+//..........................HOBBIES AND PASSIONS.....................
 app.get('/car', (req, res) => {
     res.render('car');
   });
+
+//..........................PROJECTS.....................
+app.get('/discoid', (req, res) => {
+    res.render('discoid');
+  });
+
+  app.get('/car', (req, res) => {
+    res.render('car');
+  });
+
+  app.get('/car', (req, res) => {
+    res.render('car');
+  });
+
+  app.get('/car', (req, res) => {
+    res.render('car');
+  });
+
+
+
+//..........................SKILLS.....................
+
+
+
+
+//..........................DESIGN PROJECTS.....................
+
+
+
+
+
+
+
 
 app.get('/blogs/create', (req, res) => {
   res.render('create', { title: 'Create a new blog' });
