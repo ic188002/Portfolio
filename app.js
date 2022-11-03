@@ -51,19 +51,19 @@ app.get('/car', (req, res) => {
   });
 
 //..........................PROJECTS.....................
-app.get('project/discoid', (req, res) => {
+app.get('/discoid', (req, res) => {
     res.render('discoid');
   });
 
-  app.get('/car', (req, res) => {
-    res.render('car');
+  app.get('/wineapp', (req, res) => {
+    res.render('wineapp');
   });
 
-  app.get('/car', (req, res) => {
-    res.render('car');
+  app.get('/forage', (req, res) => {
+    res.render('forage');
   });
 
-  app.get('/car', (req, res) => {
+  app.get('/tictactoe', (req, res) => {
     res.render('car');
   });
 

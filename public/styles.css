@@ -1,9 +1,44 @@
 
-
+* {
+    color: white;
+    
+}
 body {
-    color: rgb(40, 40, 40);
-    background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(36, 48, 58));
-    font-family: Arial, Helvetica, sans-serif
+    
+    background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122));
+
+
+    
+        margin: 20px auto;
+        padding: 2vw;
+        font-family: 'Noto Serif', serif;
+   
+        
+      
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    
+    text-transform: uppercase;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  nav li{
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  nav h1{
+    font-size: 3em;
+  }
+  nav p, nav a{
+    color: #777;
+    font-weight: 300;
   }
 #parallelogram {
 
@@ -124,18 +159,16 @@ body {
     justify-content: center;
   }
   
-  nav {
-    font-size: 1vw;
-  }
+
   .card-block {
     padding: 1vw;
   }
 
   .cara {
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
   }
   .cara:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   
   .carousel {
@@ -241,3 +274,45 @@ a {
     bottom: -20vh;
     
   }
+.body {
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   
+}
+.body2 {
+ 
+    width: 80vw;
+  
+}
+.text {
+    color: #777;
+}
+.box {
+    margin-top: 5%;
+    padding: 3%;
+    width: 40vw;
+    text-align: center;
+}
+.img-wine {
+    width: 30vw;
+    margin-top: 6vh;
+    
+}
+.flex-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+}
+.git {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 3vh;
+}
+.git-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
