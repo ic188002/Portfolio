@@ -51,7 +51,7 @@ app.get('/car', (req, res) => {
   });
 
 //..........................PROJECTS.....................
-app.get('/discoid', (req, res) => {
+app.get('project/discoid', (req, res) => {
     res.render('discoid');
   });
 
