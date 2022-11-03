@@ -231,3 +231,13 @@ body {
     border: white 3px solid;
     margin-bottom: 6vh;
 }
+a {
+    color: white;
+}
+.cd {
+    position: absolute;
+    right: 20vw;
+    width: 12vw;
+    bottom: -20vh;
+    
+  }

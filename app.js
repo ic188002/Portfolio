@@ -47,7 +47,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/car', (req, res) => {
-    res.render('/car');
+    res.render('car');
   });
 
 app.get('/blogs/create', (req, res) => {
