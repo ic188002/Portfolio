@@ -1,0 +1,233 @@
+
+
+body {
+    color: rgb(40, 40, 40);
+    background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(36, 48, 58));
+    font-family: Arial, Helvetica, sans-serif
+  }
+#parallelogram {
+
+    width: 12vw;
+    height: 6vh;
+    transform: skew(20deg);
+    font-size: 0.8vw;
+    border: solid white 2px;
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 4vw;
+  }
+  
+  #parallelogram:hover {
+  
+    width: 12vw;
+    height: 6vh;
+    transform: skew(20deg);
+    background-color: rgb(23, 21, 56);
+    transform: scale(1.2);
+    border: solid white 2px;
+    z-index: 1;
+    border-bottom-left-radius: 0vw;
+    font-size: 1vw;
+  
+  
+  }
+  
+  #parallelogram1 {
+  
+    width: 12vw;
+    height: 6vh;
+    transform: skew(20deg);
+    font-size: 0.8vw;
+    border: solid white 2px;
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  #parallelogram1:hover {
+  
+    width: 12vw;
+    height: 6vh;
+    transform: skew(20deg);
+    background-color: rgb(23, 21, 56);
+    transform: scale(1.2);
+    border: solid white 2px;
+    z-index: 1;
+    font-size: 1vw;
+  }
+  
+  #parallelogram2 {
+  
+    width: 12vw;
+    height: 6vh;
+    transform: skew(20deg);
+  
+    border: solid white 2px;
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4vw;
+    font-size: 0.8vw;
+  }
+  
+  #parallelogram2:hover {
+  
+    width: 12vw;
+    height: 6vh;
+    transform: skew(20deg);
+    background-color: rgb(23, 21, 56);
+    transform: scale(1.2);
+    border: solid white 2px;
+    z-index: 1;
+    border-top-right-radius: 0vw;
+    font-size: 1vw;
+  }
+  
+  .inpara {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+  
+  .Line-up {
+    display: flex;
+    flex-direction: row;
+    margin: 4vh;
+    font-size: 1vw;
+  }
+  
+  /* CARD */
+  .card {
+    color: rgb(255, 255, 255);
+    margin: 2vw;
+    text-align: center;
+    border: 2px white solid;
+  }
+  .card:hover {
+    color: rgb(255, 255, 255);
+    margin: 2vw;
+    text-align: center;
+    border: 2px white solid;
+    background-color: rgb(30, 36, 101);
+  }
+  
+  .flex-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  nav {
+    font-size: 1vw;
+  }
+  .card-block {
+    padding: 1vw;
+  }
+
+  .cara {
+    transition: all .4s ease-in-out;
+  }
+  .cara:hover {
+    transform: scale(1.2);
+  }
+  
+  .carousel {
+    width: 80%;
+  
+    margin: 0;
+    height: 60vh;
+  }
+  .carousel-inner {
+    height: 100%;
+  
+  }
+  .cara {
+    width: 15vw;
+  }
+  
+  
+  
+  .title {
+    color: white;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .a {
+    position: absolute;
+    right: 1vw;
+    width: 20vw;
+  }
+  .c {
+    position: absolute;
+    right: 22vw;
+    width: 10vw;
+    bottom: -20vh;
+    
+  }
+  .d {
+    position: absolute;
+    right: 30vw;
+    top: 9vh;
+  }
+  .b {
+    position: absolute;
+    right: 20vw;
+    top: 26vh;
+  }
+  .carousel-indicators {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cc {
+    position: absolute;
+    right: 22vw;
+    width: 20vw;
+    top: -2vh;
+    
+  }
+.flex-index {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.control-prev {
+    width: 10vw;
+    height: 10vh;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 0vw;
+    bottom: 17vh;
+   
+}
+.image-index {
+    width: 10vw;
+}
+.control-prev-right {
+    width: 10vw;
+    height: 10vh;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0vw;
+    bottom: 17vh;
+}
+
+
+.title {
+ position: absolute;
+ width: 35vw;
+}
+.w{
+    color: white;
+    border: white 3px solid;
+    margin-bottom: 6vh;
+}
