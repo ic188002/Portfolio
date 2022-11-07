@@ -245,10 +245,11 @@ nav a {
 
 .flex-index {
     display: flex;
-    width: 100vw;
- 
+    width: 90vw;
+   
     justify-content: center;
-    margin: auto;
+    margin-right: 2vw;
+
 }
 
 .control-prev {
@@ -257,8 +258,8 @@ nav a {
     background-color: transparent;
     border: none;
     position: absolute;
-    left: 0vw;
-    bottom: 17vh;
+    left: 1vw;
+    bottom: 30vh;
     border: none;
 
 
@@ -276,8 +277,8 @@ nav a {
     background-color: transparent;
     border: none;
     position: absolute;
-    right: 0vw;
-    bottom: 17vh;
+    right: 2vw;
+    bottom: 30vh;
     border: none;
 
 }

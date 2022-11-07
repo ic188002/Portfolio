@@ -6,7 +6,10 @@
 
     <body>
         <%- include("./partials/nav.ejs") %>
-
+            <button class="control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon"></span> -->
+                <img class="image-index" src="photos/arrowleft.png">
+            </button>
             <div class="flex-index">
                 <div id="hero" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -41,14 +44,8 @@
                                 <img src="/photos/gin.png" alt="New York" class="cara cd">
                             </div>
 
-                            <button class="control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
-                                <!-- <span class="carousel-control-prev-icon"></span> -->
-                                <img class="image-index" src="photos/arrowleft.png">
-                            </button>
-                            <button class="control-prev-right" type="button" data-bs-target="#hero"
-                                data-bs-slide="next">
-                                <img class="image-index" src="photos/arrowright.png">
-                            </button>
+
+
                         </div>
 
                     </div>
@@ -59,7 +56,9 @@
             </div>
             </div>
 
-
+            <button class="control-prev-right" type="button" data-bs-target="#hero" data-bs-slide="next">
+                <img class="image-index" src="photos/arrowright.png">
+            </button>
 
 
             <%- include("./partials/footer.ejs") %>
