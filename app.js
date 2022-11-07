@@ -108,7 +108,7 @@ const options={
     headers: {
       Authorization: process.env.HEROKU_API_KEY
     },
-    body: postData
+    
   }
 
   module.exports = app;
