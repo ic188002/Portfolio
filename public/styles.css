@@ -232,9 +232,9 @@ nav a {
 }
 
 .carousel-indicators {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
+
+ position: absolute;
+ margin: auto;
 }
 
 .cc {
@@ -792,4 +792,10 @@ justify-content: center;
 }
 .blue23 {
     color: rgb(106, 106, 106);
+}
+.button {
+ 
+    color: rgb(0, 0, 116);
+    background-color: transparent;
+    border: none;
 }
