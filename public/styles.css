@@ -189,6 +189,7 @@ nav a {
 
 .carousel-inner {
     height: 100%;
+ 
 
 }
 
@@ -313,6 +314,8 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 40px;
+    width: 95vw;
+  
 
 }
 
@@ -762,4 +765,31 @@ justify-content: center;
 .image-skilll {
     width: 100%;
     margin: auto;
+}
+.foragee {
+    width: 95vw;
+    position: absolute;
+    margin-left: 0vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+.foragewire {
+    border: 4vw solid rgb(225, 225, 225);
+}
+.text23 {
+    color: rgb(76, 172, 67);
+    font-size: 8vh;
+    text-align: center;
+}
+.autocar {
+    border-top-right-radius: 6vw;
+    border-top-left-radius: 6vw;
+}
+.autocar1 {
+    border-bottom-right-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+}
+.blue23 {
+    color: rgb(106, 106, 106);
 }

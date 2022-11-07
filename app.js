@@ -50,6 +50,20 @@ app.get('/car', (req, res) => {
     res.render('car');
   });
 
+app.get('/gin', (req, res) => {
+    res.render('gin');
+  });
+
+  app.get('/lobster', (req, res) => {
+    res.render('lobster');
+  });
+  app.get('/autocar', (req, res) => {
+    res.render('autocar');
+  });
+
+
+
+
 //..........................PROJECTS.....................
 app.get('/discoid', (req, res) => {
     res.render('discoid');
@@ -110,7 +124,7 @@ app.use((req, res) => {
 
 
   app.listen(PORT, () => {
-    console.log(`Discoid is running on port ${PORT}`);
+    console.log(`my portfolio is running on port ${PORT}`);
 })
 
   module.exports = app;

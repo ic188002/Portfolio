@@ -10,6 +10,9 @@
                 <!-- <span class="carousel-control-prev-icon"></span> -->
                 <img class="image-index" src="photos/arrowleft.png">
             </button>
+                 <button class="control-prev-right" type="button" data-bs-target="#hero" data-bs-slide="next">
+                <img class="image-index" src="photos/arrowright.png">
+            </button>
             <div class="flex-index">
                 <div id="hero" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -40,8 +43,8 @@
                                 <img class="title" src="/photos/dp.png">
                                 <img src="photos/cow.png" alt="Chicago" class="cara a">
                                 <img src="/photos/bin.png" alt="New York" class="cara b">
-                                <img src="/photos/auto.png" alt="New York" class="cara d">
-                                <img src="/photos/gin.png" alt="New York" class="cara cd">
+                                <a href="/autocar"><img src="/photos/auto.png" alt="New York" class="cara d"></a>
+                                <a href="/gin"><img src="/photos/gin.png" alt="New York" class="cara cd"></a>
                             </div>
 
 
@@ -56,9 +59,7 @@
             </div>
             </div>
 
-            <button class="control-prev-right" type="button" data-bs-target="#hero" data-bs-slide="next">
-                <img class="image-index" src="photos/arrowright.png">
-            </button>
+       
 
 
             <%- include("./partials/footer.ejs") %>
