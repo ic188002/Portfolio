@@ -64,7 +64,11 @@ app.get('/discoid', (req, res) => {
   });
 
   app.get('/tictactoe', (req, res) => {
-    res.render('car');
+    res.render('tictactoe');
+  });
+
+  app.get('/seiprojects', (req, res) => {
+    res.render('seiprojects');
   });
 
 
@@ -72,11 +76,20 @@ app.get('/discoid', (req, res) => {
 //..........................SKILLS.....................
 
 
+app.get('/contactme', (req, res) => {
+    res.render('contactme');
+  });
+
+  app.get('/skills', (req, res) => {
+    res.render('skills');
+  });
 
 
 //..........................DESIGN PROJECTS.....................
 
-
+app.get('/graphics', (req, res) => {
+    res.render('graphics');
+  });
 
 
 

@@ -1,73 +1,69 @@
-
 <html lang="en">
-    <%- include("./partials/head.ejs") %>
-    
-    
+<%- include("./partials/head.ejs") %>
+
+
 
 
     <body>
-      <%- include("./partials/nav.ejs") %>
-      
-    <div class="flex-index">
-      <div id="hero" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#hero" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#hero" data-bs-slide-to="2"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div>
-                    <img class="title" src="/photos/sep.png">
-                    <a href="/wineapp"><img src="/photos/wine.png" alt="Los Angeles" class="cara a"></a>
-                    <a href="/discoid"><img src="/photos/dvd.png" alt="Los Angeles" class="cara b"></a>
-                    <a href="/tictactoe"><img src="/photos/xox.png" alt="Los Angeles" class="cara c"></a>
-                    <a href="/forage"><img src="/photos/cam.png" alt="Los Angeles" class="cara d"></a>
+        <%- include("./partials/nav.ejs") %>
+
+            <div class="flex-index">
+                <div id="hero" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#hero" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#hero" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div>
+                                <img class="title" src="/photos/sep.png">
+                                <a href="/wineapp"><img src="/photos/wine.png" alt="Los Angeles" class="cara a"></a>
+                                <a href="/discoid"><img src="/photos/dvd.png" alt="Los Angeles" class="cara b"></a>
+                                <a href="/tictactoe"><img src="/photos/xox.png" alt="Los Angeles" class="cara c"></a>
+                                <a href="/forage"><img src="/photos/cam.png" alt="Los Angeles" class="cara d"></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img class="title" src="/photos/hap.png">
+
+                                <a href="/car"><img src="photos/car.png" alt="Chicago" class="cara b"></a>
+                                <img src="photos/bobbie.png" alt="Chicago" class="cara cc">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="carousel-item">
+                                <img class="title" src="/photos/dp.png">
+                                <img src="photos/cow.png" alt="Chicago" class="cara a">
+                                <img src="/photos/bin.png" alt="New York" class="cara b">
+                                <img src="/photos/auto.png" alt="New York" class="cara d">
+                                <img src="/photos/gin.png" alt="New York" class="cara cd">
+                            </div>
+
+                            <button class="control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+                                <!-- <span class="carousel-control-prev-icon"></span> -->
+                                <img class="image-index" src="photos/arrowleft.png">
+                            </button>
+                            <button class="control-prev-right" type="button" data-bs-target="#hero"
+                                data-bs-slide="next">
+                                <img class="image-index" src="photos/arrowright.png">
+                            </button>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div>
-                    <img class="title" src="/photos/hap.png">
 
-                    <img src="photos/car.png" alt="Chicago" class="cara b">
-                    <img src="photos/bobbie.png" alt="Chicago" class="cara cc">
-                </div>
+
+
             </div>
-            <div class="buttons">
-            <div class="carousel-item">
-                <img class="title" src="/photos/dp.png">
-                <img src="photos/cow.png" alt="Chicago" class="cara a">
-                <img src="/photos/bin.png" alt="New York" class="cara b">
-                <img src="/photos/auto.png" alt="New York" class="cara d">
-                <img src="/photos/gin.png" alt="New York" class="cara cd">
             </div>
 
-            <button class="control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
-                <!-- <span class="carousel-control-prev-icon"></span> -->
-                <img class="image-index" src="photos/arrowleft.png">
-            </button>
-            <button class="control-prev-right" type="button" data-bs-target="#hero" data-bs-slide="next">
-                <img class="image-index" src="photos/arrowright.png">
-            </button>
-        </div>
-    
-    </div>
-        </div>
-   
-    
-  
-</div>
-</div>
 
 
-      <%- include("./partials/footer.ejs") %>
+
+            <%- include("./partials/footer.ejs") %>
+
     </body>
-    </html>
 
-
-
-
-
-  <%- include("./partials/footer.ejs") %>
-</body>
 </html>

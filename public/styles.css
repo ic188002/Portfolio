@@ -1,45 +1,52 @@
-
 * {
     color: white;
-    
+
 }
+
 body {
-    
+
     background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122));
 
 
-    
-        margin: 20px auto;
-        padding: 2vw;
-        font-family: 'Noto Serif', serif;
-   
-        
-      
-  }
-  nav{
+
+    margin: 20px auto;
+    padding: 2vw;
+    font-family: 'Noto Serif', serif;
+
+
+
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
     padding-bottom: 10px;
-    
+
     text-transform: uppercase;
-  }
-  nav ul{
+}
+
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-  }
-  nav li{
+}
+
+nav li {
     list-style-type: none;
     margin-left: 20px;
-  }
-  nav h1{
+}
+
+nav h1 {
     font-size: 3em;
-  }
-  nav p, nav a{
+}
+
+nav p,
+nav a {
     color: #777;
     font-weight: 300;
-  }
+}
+
 #parallelogram {
 
     width: 12vw;
@@ -52,10 +59,10 @@ body {
     justify-content: center;
     align-items: center;
     border-bottom-left-radius: 4vw;
-  }
-  
-  #parallelogram:hover {
-  
+}
+
+#parallelogram:hover {
+
     width: 12vw;
     height: 6vh;
     transform: skew(20deg);
@@ -65,12 +72,12 @@ body {
     z-index: 1;
     border-bottom-left-radius: 0vw;
     font-size: 1vw;
-  
-  
-  }
-  
-  #parallelogram1 {
-  
+
+
+}
+
+#parallelogram1 {
+
     width: 12vw;
     height: 6vh;
     transform: skew(20deg);
@@ -80,11 +87,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-  }
-  
-  #parallelogram1:hover {
-  
+
+}
+
+#parallelogram1:hover {
+
     width: 12vw;
     height: 6vh;
     transform: skew(20deg);
@@ -93,14 +100,14 @@ body {
     border: solid white 2px;
     z-index: 1;
     font-size: 1vw;
-  }
-  
-  #parallelogram2 {
-  
+}
+
+#parallelogram2 {
+
     width: 12vw;
     height: 6vh;
     transform: skew(20deg);
-  
+
     border: solid white 2px;
     transition: all .4s ease-in-out;
     display: flex;
@@ -108,10 +115,10 @@ body {
     align-items: center;
     border-top-right-radius: 4vw;
     font-size: 0.8vw;
-  }
-  
-  #parallelogram2:hover {
-  
+}
+
+#parallelogram2:hover {
+
     width: 12vw;
     height: 6vh;
     transform: skew(20deg);
@@ -121,116 +128,127 @@ body {
     z-index: 1;
     border-top-right-radius: 0vw;
     font-size: 1vw;
-  }
-  
-  .inpara {
+}
+
+.inpara {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1vw;
-  }
-  
-  .Line-up {
+}
+
+.Line-up {
     display: flex;
     flex-direction: row;
     margin: 4vh;
     font-size: 1vw;
-  }
-  
-  /* CARD */
-  .card {
+}
+
+/* CARD */
+.card {
     color: rgb(255, 255, 255);
     margin: 2vw;
     text-align: center;
     border: 2px white solid;
-  }
-  .card:hover {
+}
+
+.card:hover {
     color: rgb(255, 255, 255);
     margin: 2vw;
     text-align: center;
     border: 2px white solid;
     background-color: rgb(30, 36, 101);
-  }
-  
-  .flex-card {
+}
+
+.flex-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-  
+}
 
-  .card-block {
+
+.card-block {
     padding: 1vw;
-  }
+}
 
-  .cara {
+.cara {
     transition: all .2s ease-in-out;
-  }
-  .cara:hover {
+}
+
+.cara:hover {
     transform: scale(1.1);
-  }
-  
-  .carousel {
+}
+
+.carousel {
     width: 80%;
-  
+
     margin: 0;
     height: 60vh;
-  }
-  .carousel-inner {
+}
+
+.carousel-inner {
     height: 100%;
-  
-  }
-  .cara {
+
+}
+
+.cara {
     width: 15vw;
-  }
-  
-  
-  
-  .title {
+}
+
+
+
+.title {
     color: white;
     position: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .a {
+}
+
+.a {
     position: absolute;
     right: 1vw;
     width: 20vw;
-  }
-  .c {
+}
+
+.c {
     position: absolute;
     right: 22vw;
     width: 10vw;
-    bottom: -20vh;
-    
-  }
-  .d {
+    bottom: -24vh;
+
+}
+
+.d {
     position: absolute;
     right: 30vw;
     top: 9vh;
-  }
-  .b {
+}
+
+.b {
     position: absolute;
     right: 20vw;
     top: 26vh;
-  }
-  .carousel-indicators {
+}
+
+.carousel-indicators {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-  }
-  .cc {
+}
+
+.cc {
     position: absolute;
     right: 22vw;
     width: 20vw;
     top: -2vh;
-    
-  }
+}
+
 .flex-index {
     display: flex;
     width: 100vw;
     justify-content: center;
 }
+
 .control-prev {
     width: 10vw;
     height: 10vh;
@@ -239,11 +257,17 @@ body {
     position: absolute;
     left: 0vw;
     bottom: 17vh;
-   
+    border: none;
+
+
 }
+
 .image-index {
     width: 10vw;
+    border: none;
+    
 }
+
 .control-prev-right {
     width: 10vw;
     height: 10vh;
@@ -252,67 +276,486 @@ body {
     position: absolute;
     right: 0vw;
     bottom: 17vh;
+    border: none;
+
 }
 
 
 .title {
- position: absolute;
- width: 35vw;
+    position: absolute;
+    width: 35vw;
 }
-.w{
+
+.w {
     color: white;
     border: white 3px solid;
     margin-bottom: 6vh;
 }
+
 a {
     color: white;
 }
+
 .cd {
     position: absolute;
     right: 20vw;
     width: 12vw;
     bottom: -20vh;
-    
-  }
+
+}
+
 .body {
     background-color: rgb(255, 255, 255);
-   display: flex;
-   justify-content: center;
-   
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+
 }
+
 .body2 {
- 
+
     width: 80vw;
-  
+
 }
+
 .text {
     color: #777;
 }
+
+.text2 {
+    color: #777;
+    font-size: 8vh;
+}
+
 .box {
     margin-top: 5%;
     padding: 3%;
     width: 40vw;
     text-align: center;
 }
+
 .img-wine {
     width: 30vw;
     margin-top: 6vh;
-    
+
 }
+
 .flex-inner {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-   
+    justify-content: space-around;
+
 }
+
 .git {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     margin-bottom: 3vh;
 }
+
 .git-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* CAR CSS */
+
+
+#gallery {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+
+@media (max-width:1200px) {
+    #gallery {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    #gallery {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    #gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+#gallery img,
+#gallery video {
+    width: 100%;
+    height: auto;
+    margin: 4% auto;
+
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.modal-img,
+.model-vid {
+    width: 100%;
+    height: auto;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.carin {
+    position: relative;
+
+}
+
+.fontcolor {
+    color: #777;
+    text-align: center;
+}
+
+.justify {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.bodydisc {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+
+}
+
+.text22 {
+    color: rgb(69, 13, 65);
+    font-size: 8vh;
+
+}
+
+.white {
+    color: rgb(69, 13, 65);
+}
+
+.underline {
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color {
+
+    background-color: rgb(69, 13, 65);
+    border-radius: 20px;
+    width: 100%;
+    padding: 2vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.me-box {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 40px;
+    height: 100%;
+}
+
+.blue {
+    color: rgb(0, 0, 73);
+    padding-left: 6vw;
+    padding-bottom: 6vw;
+    padding-right: 6vw;
+}
+
+.blue-title {
+    color: rgb(0, 0, 73);
+    padding-top: 4vh;
+    padding-left: 4vh;
+    padding-bottom: 3vh;
+}
+
+/* ...........................GRAPHICS */
+.vid {
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+}
+
+.vid-d {
+    margin-left: -8;
+
+}
+
+.orange {
+    background-color: rgb(181, 101, 31);
+    border-radius: 20px;
+}
+
+.blues {
+    background-color: rgb(13, 68, 139);
+    border-radius: 20px;
+
+}
+
+.vidd {
+    width: 21%;
+    border-radius: 20px;
+    border: none;
+    right: 0px;
+    position: relative;
+}
+
+.flex-inner-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.vido {
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    margin-left: -15.5vw;
+}
+
+.blueish {
+    color: rgb(4, 4, 55);
+}
+
+.nav {
+    background-color: white;
+    padding: 2px;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 2vh;
+    padding-right: 3vw;
+}
+
+/* .......................TIC TAC TOE */
+.textx {
+    color: rgb(84, 15, 118);
+    font-size: 8vh;
+    margin-left: 3vw;
+}
+
+.textp {
+    margin-top: 16vh;
+    color: rgb(84, 15, 118);
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gitt {
+    width: 5vw;
+}
+
+.fb {
+    width: 5vw;
+}
+
+.blue2 {
+    color: rgb(6, 0, 95);
+    font-size: 4vh;
+}
+
+.flex-ins {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.contac {
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    margin-top: -10vh;
+    
+    width: 50%;
+    border-radius: 40px;
+    height: 90%;
+    padding: 6vh;
+    /* background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122)); */
+background-color: white;
+
+}
+
+.skills {
+    width: 90vw;
+}
+
+.me-box-white {
+    background-color: white;
+    width: 100%;
+    border-radius: 40px;
+    height: 120%;
+    padding-top: 4vh;
+}
+
+.text222 {
+    margin: 7vh;
+    color: #777;
+    color: rgb(255, 255, 255);
+    font-size: 8vh;
+}
+
+.skillll {
+    background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122));
+justify-content: center;
+    margin-left: 6vh;
+    margin-top: -4vh;
+    border-radius: 30px;
+    max-width: 90%;
+
+}
+
+.img-responsive {
+    border-radius: 40px;
+
+}
+
+/* .flex-inner {
+    /* background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122));
+    padding: 4vw;
+    border-radius: 20px; 
+} */
+.linav {
+    background-color: rgb(44, 67, 102);
+    padding: 0.3vh;
+    border-radius: 6px;
+    width: 10%;
+    text-align: center;
+    color: white;
+}
+.linav:link {
+    color: white;
+}
+.fullboxproject {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 2vw;
+}
+.boxproject {
+   
+    /* border: rgb(34, 0, 136) 3px solid; */
+    border-radius: 20px;
+    width: 20vw;
+    height: 60vh;
+    margin: auto; 
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: transform .2s
+
+}
+.boxproject:hover {
+    transform: scale(1.1)
+}
+.imgproject {
+  
+    height: 40vh;
+    width: 20vw;
+    padding: 3vw;
+    
+}
+.imgprojectt {
+  
+    height: 40vh;
+    width: 20vw;
+    padding: 3vw;
+    padding-left: 20%;
+    
+}
+.font-black {
+    color: rgb(255, 255, 255);
+}
+.disk {
+    background-color: rgb(255, 111, 212);
+}
+.forage {
+    background-color: rgb(215, 255, 175);
+}
+.font-blue {
+    color: rgb(0, 0, 100);
+}
+.wineapp {
+    background-color: rgb(115, 0, 0);
+}
+.xox {
+    background-color: rgb(255, 216, 178);
+}
+.font-purple {
+    color:rgb(63, 0, 122);
+}
+.line {
+    margin: auto;
+    width: 90%;
+   
+    border-radius: 2px;
+
+}
+.lined {
+    margin: auto;
+    width: 90%;
+    border-radius: 2px;
+}
+.image-skill {
+    background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122));
+    width: 93%;
+    margin: auto;
+    border-radius: 20px;
+}
+.image-skilll {
+    width: 100%;
+    margin: auto;
 }
