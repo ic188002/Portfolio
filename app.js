@@ -4,8 +4,11 @@ const morgan = require('morgan');
 // express app
 const app = express();
 
+require('dotenv').config();
+
 // listen for requests
-app.listen(4073);
+const PORT = process.env.PORT;
+
 
 
 app.set('views', './views');
@@ -102,13 +105,12 @@ app.use((req, res) => {
   res.status(404).render('404', { title: '404' });
 });
 
-const options={
-    url: 'https://us20.api.mailchimp.com/3.0/lists/a06f7fee47',
-    method: 'POST',
-    headers: {
-      Authorization: process.env.HEROKU_API_KEY
-    },
-    
-  }
+
+
+
+
+  app.listen(PORT, () => {
+    console.log(`Discoid is running on port ${PORT}`);
+})
 
   module.exports = app;
