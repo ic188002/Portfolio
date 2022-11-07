@@ -261,7 +261,7 @@ nav a {
     left: 1vw;
     bottom: 30vh;
     border: none;
-
+    z-index: 1;
 
 }
 
@@ -280,6 +280,7 @@ nav a {
     right: 2vw;
     bottom: 30vh;
     border: none;
+    z-index: 1;
 
 }
 
