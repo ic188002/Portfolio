@@ -181,7 +181,7 @@ nav a {
 }
 
 .carousel {
-    width: 80%;
+    width: 90%;
 
     margin: 0;
     height: 60vh;
@@ -246,7 +246,9 @@ nav a {
 .flex-index {
     display: flex;
     width: 100vw;
+ 
     justify-content: center;
+    margin: auto;
 }
 
 .control-prev {
