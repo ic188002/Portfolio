@@ -34,12 +34,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  const blogs = [
-    {title: 'Yoshi finds eggs', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-    {title: 'Mario finds stars', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-    {title: 'How to defeat bowser', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-  ];
-  res.render('index', { title: 'Home', blogs });
+    res.render('index');
 });
 
 app.get('/about', (req, res) => {
