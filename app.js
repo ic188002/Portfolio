@@ -7,6 +7,8 @@ const app = express();
 // listen for requests
 app.listen(4073);
 
+
+app.set('views', './views');
 // register view engine
 app.set('view engine', 'ejs');
 
@@ -99,3 +101,14 @@ app.get('/blogs/create', (req, res) => {
 app.use((req, res) => {
   res.status(404).render('404', { title: '404' });
 });
+
+const options={
+    url: 'https://us20.api.mailchimp.com/3.0/lists/a06f7fee47',
+    method: 'POST',
+    headers: {
+      Authorization: process.env.HEROKU_API_KEY
+    },
+    body: postData
+  }
+
+  module.exports = app;
