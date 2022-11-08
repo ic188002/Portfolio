@@ -61,9 +61,12 @@ app.get('/gin', (req, res) => {
     res.render('autocar');
   });
 
+  app.get('/stormsimulator', (req, res) => {
+    res.render('stormsimulator');
+  });
 
 
-
+  
 //..........................PROJECTS.....................
 app.get('/discoid', (req, res) => {
     res.render('discoid');
