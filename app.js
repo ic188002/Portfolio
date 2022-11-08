@@ -104,8 +104,8 @@ app.get('/contactme', (req, res) => {
 
 //..........................DESIGN PROJECTS.....................
 
-app.get('/graphics', (req, res) => {
-    res.render('graphics');
+app.get('/mfc', (req, res) => {
+    res.render('mfc');
   });
 
 
