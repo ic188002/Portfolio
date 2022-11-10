@@ -108,6 +108,10 @@ app.get('/mfc', (req, res) => {
     res.render('mfc');
   });
 
+  app.get('/bin', (req, res) => {
+    res.render('bin');
+  });
+
 
 
 
