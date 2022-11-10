@@ -654,12 +654,11 @@ ul {
     margin-bottom: 20px;
     margin-top: -10vh;
 
-    width: 50%;
+    width: 80%;
     border-radius: 40px;
     height: 90%;
     padding: 6vh;
-    /* background-image: linear-gradient(to right, rgb(23, 21, 56), rgb(4, 69, 122)); */
-    background-color: white;
+
 
 }
 
