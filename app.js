@@ -100,6 +100,9 @@ app.get('/contactme', (req, res) => {
   app.get('/skills', (req, res) => {
     res.render('skills');
   });
+  app.get('/pages', (req, res) => {
+    res.render('pages');
+  });
 
 
 //..........................DESIGN PROJECTS.....................
