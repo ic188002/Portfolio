@@ -632,6 +632,12 @@ ul {
 .fb {
     width: 5vw;
 }
+.dark:hover {
+    filter: brightness(70%)
+}
+.light:hover {
+    filter: brightness(170%)
+}
 
 .blue2 {
     color: rgb(6, 0, 95);
@@ -821,9 +827,18 @@ ul {
 }
 
 .foragewire {
-    border: 4vw solid rgb(225, 225, 225);
+   margin-top: 0vh;
 }
-
+.grey-background {
+    background-color: rgb(174, 174, 174);
+    padding: 7vh;
+    border-radius: 20px;
+}
+.foragetext {
+    color: rgb(255, 255, 255);
+    background-color: rgb(174, 174, 174);
+    margin-top: 3vh;
+}
 .text23 {
     color: rgb(76, 172, 67);
     font-size: 8vh;
