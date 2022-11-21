@@ -506,28 +506,27 @@ a {
     font-size: 8vh;
 
 }
+.text22p {
+    color: rgb(240,156,194);
+    font-size: 8vh;
+
+}
+.pink {
+    color: rgb(240,156,194);
+}
 
 .white {
     color: rgb(69, 13, 65);
 }
 
 .underline {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(153,208,166);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.color {
 
-    background-color: rgb(69, 13, 65);
-    border-radius: 20px;
-    width: 100%;
-    padding: 2vh;
-    margin-top: 1vh;
-    margin-left: 1vw;
-    text-align: center;
-}
 
 .me-box {
     background-color: rgb(255, 255, 255);
@@ -1025,7 +1024,7 @@ ul {
 
 .color {
 
-    background-color: rgb(78, 33, 87);
+    background-color: rgb(240,156,194);
     border-radius: 20px;
     width: 70%;
     padding: 2vh;
@@ -1131,4 +1130,16 @@ ul {
     flex-direction: row;
 
 
+}
+.imgupdate {
+    height: 10vh;
+}
+.flexish {
+    display: flex;
+}
+.green {
+color: rgb(160,181,154);
+}
+.red {
+color: rgb(117,13,13);
 }
