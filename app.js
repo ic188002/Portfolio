@@ -115,9 +115,12 @@ app.get('/mfc', (req, res) => {
     res.render('bin');
   });
 
+  app.get('/interests', (req, res) => {
+    res.render('interests');
+  });
 
 
-
+  
 
 
 app.get('/blogs/create', (req, res) => {
