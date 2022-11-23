@@ -174,12 +174,26 @@ nav a {
 
 .cara {
     transition: all .2s ease-in-out;
+    
 }
 
 .cara:hover {
     transform: scale(1.1);
-}
+    background: radial-gradient(#293eff, transparent 60%);
+    background-repeat: no-repeat;
+    
 
+    
+    
+}
+.gitandweb {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.gitandweb2 {
+  text-align: center;
+    }
 .carousel {
     width: 90%;
 
@@ -207,7 +221,7 @@ nav a {
 
 .a {
     position: absolute;
-    right: 1vw;
+    right: 0vw;
     width: 20vw;
 }
 
@@ -222,7 +236,7 @@ nav a {
     position: absolute;
     right: 22vw;
     width: 10vw;
-    bottom: -24vh;
+    bottom: -23vh;
 
 }
 
@@ -1142,4 +1156,13 @@ color: rgb(160,181,154);
 }
 .red {
 color: rgb(117,13,13);
+}
+.inline {
+    text-align: center;
+}
+.clickme {
+    position: absolute;
+    width: 20vw;
+    top: 34vh;
+    left: 9vw;
 }
