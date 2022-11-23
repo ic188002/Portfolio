@@ -414,6 +414,10 @@ a {
     justify-content: flex-end;
     flex-direction: row;
     margin-bottom: 3vh;
+    background-color: #c3c9ff;
+    padding: 1vw;
+    border-radius: 20px;
+    align-items: center;
 }
 
 .git-text {
@@ -704,8 +708,9 @@ ul {
     background-color: white;
     width: 100%;
     border-radius: 40px;
-    height: 120%;
+    height: 130%;
     padding-top: 4vh;
+    margin-bottom: 20vh;
 }
 
 .text222 {
@@ -1165,4 +1170,8 @@ color: rgb(117,13,13);
     width: 20vw;
     top: 34vh;
     left: 9vw;
+}
+.inner-git {
+    text-align: center;
+    padding: 1vw;
 }
