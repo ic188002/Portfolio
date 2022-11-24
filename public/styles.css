@@ -1138,9 +1138,10 @@ ul {
 .me {
     border-radius: 100%;
     width: 30vh;
-    height: 30vh;
+    height: 20vh;
     margin-left: 4vw;
-    border: 1vw rgb(0, 0, 80) solid;
+    border: 0.5vw rgb(0, 0, 80) solid;
+    margin-top: 20px;
 
 }
 
