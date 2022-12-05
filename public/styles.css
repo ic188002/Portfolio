@@ -414,7 +414,7 @@ a {
     justify-content: flex-end;
     flex-direction: row;
     margin-bottom: 3vh;
-    background-color: #c3c9ff;
+    background-color: rgb(200, 191, 255);
     padding: 1vw;
     border-radius: 20px;
     align-items: center;
@@ -668,7 +668,8 @@ ul {
 }
 
 .light:hover {
-    filter: brightness(170%)
+    filter: brightness(110%)
+    
 }
 
 .blue2 {
